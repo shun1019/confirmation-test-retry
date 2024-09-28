@@ -24,16 +24,16 @@ class ContactRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_name' => ['required'],
-            'last_name' => ['required'],
-            'gender' => ['required'],
-            'email' => ['required','email'],
-            'tel_1' => ['required','max:5','regex:/^[0-9]+$/'],
-            'tel_2' => ['required','max:5','regex:/^[0-9]+$/'],
-            'tel_3' => ['required', 'max:5', 'regex:/^[0-9]+$/'],
-            'address' => ['required'],
-            'category_id' => ['required'],
-            'detail' => ['required','max:120'],
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'gender' => 'required',
+            'email' => 'required | email',
+            'tel_1' => 'required | max:5 | regex:/^[0-9]+$/',
+            'tel_2' => 'required | max:5 | regex:/^[0-9]+$/',
+            'tel_3' => 'required | max:5 | regex:/^[0-9]+$/',
+            'address' => 'required',
+            'category_id' => 'required',
+            'detail' => 'required | max:120',
         ];
     }
 
