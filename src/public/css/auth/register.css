@@ -39,11 +39,10 @@
   border: none;
   background-color: #F4F4F4;
   color: #BEB1A6;
-  font-family: serif;
 }
 
 .register-form__error-message {
-  color: #FF9494;
+  color: #f67f7f;
 }
 
 .register-form__button {

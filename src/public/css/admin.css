@@ -20,8 +20,8 @@ select {
 .search-form__keyword-input {
     padding: 5px 20px;
     min-width: 350px;
-    border: 1px solid #9a9692;
-    background-color: #fbfbfb;
+    border: 1px solid #a09a95;
+    background-color: #f3ebeb;
 }
 
 .search-form__gender,
@@ -47,7 +47,7 @@ select {
 .search-form__category-select {
     padding: 8px 12px;
     height: 100%;
-    background-color: #f4f4f4;
+    background-color: #f3ebeb;
 }
 
 .search-form__gender-select {
@@ -149,7 +149,7 @@ select {
 }
 
 .admin__label {
-    background-color: #8b7969;
+    background-color: #ac937e;
     color: #fff;
     text-align: left;
     font-weight: 400;
@@ -192,7 +192,7 @@ select {
     top: 50%;
     left: 50%;
     width: 50%;
-    border: 1px solid #8b7969;
+    border: 1px solid #ac937e;
     background-color: #fff;
     box-shadow: 4px 4px 4px rgba(139, 121, 105, 0.25);
     transform: translate(-50%, -50%);
@@ -227,9 +227,9 @@ select {
     right: 32px;
     width: 32px;
     height: 32px;
-    border: 1px solid #8b7969;
+    border: 1px solid #ac937e;
     border-radius: 50%;
-    color: #8b7969;
+    color: #ac937e;
     text-align: center;
     text-decoration: none;
 }

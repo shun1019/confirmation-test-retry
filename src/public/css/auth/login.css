@@ -41,13 +41,12 @@
   width: 100%;
   height: 48px;
   border: none;
-  background-color: #F4F4F4;
+  background-color: #f3ebeb;
   color: #BEB1A6;
-  font-family: serif;
 }
 
 .login-form__error-message {
-  color: #FF9494;
+  color: #f67f7f;
 }
 
 .login-form__button {
